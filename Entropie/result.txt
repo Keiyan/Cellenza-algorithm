@@ -1,0 +1,5 @@
+$ ./Entropie/build/entropy-mergesort-exe/Algorithm.Entropy.exe ./Entropie/IntegerArray.txt
+Computing entropy for 100000 elements...
+(Algorithm: MergeSort)
+Entropy: 2407905288
+Computed entropy for 100000 elements in 52ms
