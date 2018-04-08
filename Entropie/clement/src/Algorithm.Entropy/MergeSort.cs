@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Threading.Tasks;
 
 namespace Algorithm.Entropy
 {
@@ -46,9 +47,12 @@ namespace Algorithm.Entropy
             }
 
             (int[] array1, int[] array2) = Divide(unsortedArray);
-            int[] sortedArray1 = InternalSort(array1);
-            int[] sortedArray2 = InternalSort(array2);
-            int[] mergedArray = Merge(sortedArray1, sortedArray2);
+            // var t1 = Task.Run<int[]>(() => InternalSort(array1));
+            // var t2 = Task.Run<int[]>(() => InternalSort(array2));
+            // int[] mergedArray = Merge(t1.Result, t2.Result);
+            var sorted1 = InternalSort(array1);
+            var sorted2 = InternalSort(array2);
+            int[] mergedArray = Merge(sorted1, sorted2);
 
             return mergedArray;
         }
