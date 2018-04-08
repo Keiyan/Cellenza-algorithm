@@ -1,7 +1,7 @@
 using System;
 using System.Diagnostics;
 
-namespace Algorithm.QuickSort
+namespace Algorithm.SumOfTwo
 {
     public class QuickSort
     {

@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Algorithm.QuickSort/Algorithm.QuickSort.csproj"
+                "${workspaceFolder}/Algorithm.SumOfTwo/Algorithm.SumOfTwo.csproj"
             ],
             "problemMatcher": "$msCompile"
         },
@@ -20,7 +20,7 @@
             },
             "args": [
                 "test",
-                "${workspaceFolder}/Algorithm.QuickSort.Tests/Algorithm.QuickSort.Tests.csproj"
+                "${workspaceFolder}/Algorithm.SumOfTwo.Tests/Algorithm.SumOfTwo.Tests.csproj"
             ],
         }
     ]
