@@ -61,7 +61,7 @@ namespace Entropie
                     rightArrayIndex++;
 
                     if (leftArrayIndex < leftArray.Length)
-                        result++;
+                        result = result + leftArray.Length - leftArrayIndex;
                 }
                 else
                 {
