@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedianMaintenance", "MedianMaintenance\MedianMaintenance.csproj", "{9EC480EE-68D9-4ED2-A308-117EB554837D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedianMaintenance.Tests", "MedianMaintenance.Tests\MedianMaintenance.Tests.csproj", "{AA88FE96-8CAF-418F-80AE-CE4D15F0548B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EC480EE-68D9-4ED2-A308-117EB554837D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC480EE-68D9-4ED2-A308-117EB554837D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC480EE-68D9-4ED2-A308-117EB554837D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC480EE-68D9-4ED2-A308-117EB554837D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA88FE96-8CAF-418F-80AE-CE4D15F0548B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA88FE96-8CAF-418F-80AE-CE4D15F0548B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA88FE96-8CAF-418F-80AE-CE4D15F0548B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA88FE96-8CAF-418F-80AE-CE4D15F0548B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
