@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27705.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphContractor2000", "GraphContractor2000\GraphContractor2000.csproj", "{CCE4B13B-B9B6-4629-A93C-D3089EA47E8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCE4B13B-B9B6-4629-A93C-D3089EA47E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE4B13B-B9B6-4629-A93C-D3089EA47E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE4B13B-B9B6-4629-A93C-D3089EA47E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE4B13B-B9B6-4629-A93C-D3089EA47E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B7DFA92-A1C2-4C2B-BC3E-82B235D15ED3}
+	EndGlobalSection
+EndGlobal
