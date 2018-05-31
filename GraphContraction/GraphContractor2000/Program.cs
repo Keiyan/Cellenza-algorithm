@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Numerics;
 using System.Runtime.InteropServices;
 
 namespace GraphContractor2000
@@ -113,6 +114,19 @@ namespace GraphContractor2000
 				a[i] += b[i];
 			}
 		}
+
+		public static void AddVector(this Span<ushort> a, Span<ushort> b)
+		{
+			var vectorA = new Vector<ushort>(a);
+			var vectorB = new Vector<ushort>(b);
+			vectorA += vectorB;
+
+			for (int i = 0; i < a.Length && i < b.Length; i++)
+			{
+				a[i] = vectorA[i];
+			}
+		}
+
 
 		public static Span<ushort> Slice(this ushort[,] m, int row)
 		{
